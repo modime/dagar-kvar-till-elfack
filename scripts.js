@@ -4,11 +4,9 @@ function getBusinessDatesCount() {
   let count = 0;
 
   let holidays = [];
-  holidays.push(new Date("2022-12-26").getTime()); // Annandag jul
-  holidays.push(new Date("2023-01-06").getTime()); // Trettondedag
   holidays.push(new Date("2023-04-07").getTime()); // Långfredagen
   holidays.push(new Date("2023-04-09").getTime()); // Påskdagen
-  holidays.push(new Date("2023-04-10").getTime()); // Annandag
+  holidays.push(new Date("2023-04-10").getTime()); // Annandag påsk
   holidays.push(new Date("2023-05-01").getTime()); // Första maj
 
   const curDate = new Date(startDate.getTime());

@@ -5,7 +5,6 @@ function getBusinessDatesCount() {
 
   let holidays = [];
   holidays.push(new Date("2023-04-07").getTime()); // Långfredagen
-  holidays.push(new Date("2023-04-09").getTime()); // Påskdagen
   holidays.push(new Date("2023-04-10").getTime()); // Annandag påsk
   holidays.push(new Date("2023-05-01").getTime()); // Första maj
 
